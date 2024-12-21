@@ -27,25 +27,25 @@ public class RG58_LinkedListIlkveSonElamanlariIteratorleYazdirma {
 
         System.out.println("Orjinal list elemanlari: " + list);
 
-        System.out.println("Listenin ilk elemani: " +list.getFirst());
-        System.out.println("Listenin son elemani: " +list.getLast());
+//        System.out.println("Listenin ilk elemani: " +list.getFirst());
+//        System.out.println("Listenin son elemani: " +list.getLast());
 
-//        int index = 0;
-//
-//        while (iterator.hasNext()){
-//
-//            String currentIterator = (String) iterator.next();
-//
-//            if (index==0){
-//                System.out.println("Listenin ilk elemani: " + currentIterator);
-//            }
-//
-//            if (!iterator.hasNext()){
-//                System.out.println("Listenin son elemani: " + currentIterator);
-//            }
-//
-//            index++;
-//        }
+        int index = 0;
+
+        while (iterator.hasNext()){
+
+            String currentIterator = (String) iterator.next();
+
+            if (index==0){
+                System.out.println("Listenin ilk elemani: " + currentIterator);
+            }
+
+            if (!iterator.hasNext()){
+                System.out.println("Listenin son elemani: " + currentIterator);
+            }
+
+            index++;
+        }
 
     }
 
