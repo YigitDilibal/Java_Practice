@@ -25,6 +25,7 @@ public class S01_Cay {
         int seker = scanner.nextInt();
 
 
+
         if (seker<=0 || bardak<=0){
             System.out.println("Seker kullanmiyorsun aferin");
         } else {
@@ -38,7 +39,6 @@ public class S01_Cay {
 
 
         }
-
 
     }
 

@@ -39,8 +39,8 @@ public class ParaIslemleri {
             MenuIslemleri.menu();
         }
 
-
     }
+
 
     public static void paraCekme() {
 

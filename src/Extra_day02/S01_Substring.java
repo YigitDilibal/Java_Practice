@@ -12,6 +12,7 @@ public class S01_Substring {
             soyadinin tamami buyuk harfle olacak sekildi ad ayri soyad ayri sekilde alt alta yazdirin.
          */
 
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Lutfen adinizi ve soyadinizi giriniz.");
