@@ -13,6 +13,7 @@ public class S03_TasKagitMakas {
 
 
 
+
         int userWin = 0;
         int pcWin = 0;
         boolean girisDogruMu = false;
@@ -70,6 +71,7 @@ public class S03_TasKagitMakas {
                         System.out.println(userWin+"-"+pcWin+ " Kaybettiniz.");
                         break;
                     }
+
 
                 } else {
                     throw new RuntimeException("Geçersiz giriş. Lütfen 1, 2 veya 3 giriniz.");
